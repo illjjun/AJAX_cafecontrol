@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/select_menu")
 public class select_menu extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+        
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -39,7 +39,7 @@ public class select_menu extends HttpServlet {
 		ResultSet rs=null;
 
 		String strReturn="";
-		String url="jdbc:oracle:thin:@localhost:1521:orcl"; // DBÁ¢¼ÓÁ¤º¸
+		String url="jdbc:oracle:thin:@localhost:1521:orcl"; // DBï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		String userid="ora_user";
 		String passcode="human123";
 		String sql="select name,price from menu order by code";

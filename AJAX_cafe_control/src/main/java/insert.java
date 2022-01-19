@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/insert")
 public class insert extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+        
     /**
      * @see HttpServlet#HttpServlet()
      */

@@ -10,7 +10,7 @@
     <title>카페관리</title>
 </head>
 <style>
-.bound{
+.bound{ 
     border-collapse: collapse;
     border:1px solid lightskyblue;
     height: 460px;
